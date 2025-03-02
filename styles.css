@@ -19,3 +19,41 @@ nav a.active {
     color: blue; /* Highlight active section */
     text-decoration: underline;
 }
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 0;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-item {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .project-info {
+            flex: 1;
+        }
+        .project-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .project-description {
+            font-size: 14px;
+            color: #555;
+        }
