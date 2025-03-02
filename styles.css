@@ -1,11 +1,11 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
+    text-align: left;
 }
 
 /* Navigation */
@@ -14,7 +14,7 @@ nav ul {
     padding: 10px;
     background-color: #222;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 15px;
     margin: 0;
 }
@@ -41,14 +41,13 @@ nav a:hover {
     border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-    text-align: center;
+    text-align: left;
 }
 
 .animated-section.visible {
     opacity: 1;
 }
 
-/* List Styles */
 ul {
     list-style: disc inside;
     padding: 0;
@@ -61,15 +60,15 @@ li {
     margin: 10px 0;
 }
 
-/* Titles */
 h1, h2, h3 {
-    text-align: center;
+    text-align: left;
 }
 
-/* Footer */
 footer {
     background-color: #222;
     color: white;
     padding: 20px 0;
     margin-top: 50px;
+    text-align: left;
 }
+
