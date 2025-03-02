@@ -1,17 +1,20 @@
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 10px;
     background-color: #222;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 15px;
     margin: 0;
 }
@@ -28,6 +31,7 @@ nav a:hover {
     color: #f39c12;
 }
 
+/* Section Styles */
 .animated-section {
     width: 80%;
     margin: 50px auto;
@@ -37,6 +41,7 @@ nav a:hover {
     border-radius: 10px;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    text-align: center;
 }
 
 .animated-section.visible {
@@ -45,20 +50,23 @@ nav a:hover {
 
 /* List Styles */
 ul {
-    list-style: none;
+    list-style: disc inside;
     padding: 0;
     text-align: left;
+    margin-left: 20px;
 }
 
 li {
-    display: block;
+    display: list-item;
     margin: 10px 0;
 }
 
+/* Titles */
 h1, h2, h3 {
     text-align: center;
 }
 
+/* Footer */
 footer {
     background-color: #222;
     color: white;
