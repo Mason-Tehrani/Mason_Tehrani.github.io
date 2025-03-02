@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a.active {
+    color: blue; /* Highlight active section */
+    text-decoration: underline;
+}
