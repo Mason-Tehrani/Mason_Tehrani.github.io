@@ -7,23 +7,23 @@ body {
     text-align: left;
 }
 
-.animated-section:nth-child(1) { 
+.animated-section:nth-child(2) { 
     background: #ffffff; 
 }
 
-.animated-section:nth-child(2) { 
+.animated-section:nth-child(3) { 
     background: #e0e6f0; 
 }
 
-.animated-section:nth-child(3) { 
+.animated-section:nth-child(4) { 
     background: #b0c4de; color: white; 
 }
 
-.animated-section:nth-child(4) { 
+.animated-section:nth-child(5) { 
     background: #7088b0; color: white; 
 }
 
-.animated-section:nth-child(5) { 
+.animated-section:nth-child(1) { 
     background: #3b4e70; color: white; 
 }
 
