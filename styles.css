@@ -7,25 +7,16 @@ body {
     text-align: left;
 }
 
-.animated-section:nth-child(2) { 
-    background: #ffffff; 
-}
+#education{background-color: white;}
 
-.animated-section:nth-child(3) { 
-    background: #e0e6f0; 
-}
+#skills{background: #e0e6f0; }
 
-.animated-section:nth-child(4) { 
-    background: #b0c4de; color: white; 
-}
+#projects{background: #e0e6f0; } 
 
-.animated-section:nth-child(5) { 
-    background: #7088b0; color: white; 
-}
+#resume{ background: #90a4be; color: white; }
 
-.animated-section:nth-child(1) { 
-    background: #3b4e70; color: white; 
-}
+#contact { background: #3b4e70; color: white; }
+
 
 nav ul {
     list-style: none;
@@ -53,7 +44,6 @@ nav a:hover {
     width: 80%;
     margin: 50px auto;
     padding: 50px;
-    background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     opacity: 0;
@@ -127,7 +117,7 @@ footer {
     color: white;
     padding: 20px 0;
     margin-top: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 
